@@ -16,7 +16,7 @@ code {
 
 
 .container{
- width: 80%;
+ width: 40%;
  margin: auto;
  min-height: 100vh;
 }
@@ -60,7 +60,8 @@ flex-wrap: nowrap;
 
 .together{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  justify-self: start;
 }
 
 .icon{
@@ -78,3 +79,9 @@ flex-wrap: nowrap;
   width: 150px;
   height: 150px;
 }
+#boardBtn{
+  margin-top:10px;
+}
+
+
+
